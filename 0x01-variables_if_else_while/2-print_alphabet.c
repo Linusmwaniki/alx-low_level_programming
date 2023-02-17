@@ -1,9 +1,12 @@
 #include <stdio.h>
+
 /**
- * Main -entry point
- * print all aphabet letters
- * Return 0 if successful
- */
+ * main - Entry point
+ *
+ * Description: print all aplhabet letters
+ *
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
@@ -12,9 +15,9 @@ int main(void)
 	while (ch <= 'z')
 	{
 		putchar(ch);
-		+ch;
+		++ch;
 	}
-	putchar("\n")
-	
-	return 0;
+	putchar('\n');
+
+	return (0);
 }
