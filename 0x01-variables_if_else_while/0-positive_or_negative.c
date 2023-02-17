@@ -4,7 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/* this function checks if n is positive, negative or zero */
+/**
+ * main - Entry point
+ *
+ * Return: always 0 (success)
+ */
+
 int main(void)
 {	int n;
 
