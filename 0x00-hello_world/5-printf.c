@@ -2,10 +2,6 @@
 
 int main(void)
 {
-    printf("Roses are red,\n"
-           "Violets are blue,\n"
-           "Sugar is sweet,\n"
-           "And so are you.\n");
-
-    return 0;
+    printf("with proper grammar, but the outcome is a piece of art,\n");
+    return (0);
 }
