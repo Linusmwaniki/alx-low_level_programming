@@ -1,7 +1,13 @@
 #include <stdio.h>
-
-int main(void)
+/**
+ * Main - entry point for the program
+ *
+ * Description - prints the string given
+ *
+ * Returns 0 if successful
+ */
+int main (void)
 {
-    printf("with proper grammar, but the outcome is a piece of art,\n");
-    return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
