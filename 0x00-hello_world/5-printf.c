@@ -1,12 +1,15 @@
 #include <stdio.h>
+
 /**
- * Main - entry point for the program
+ * main - Entry point
  *
- * Description - prints the string given
+ * Description: print the value of n status:
+ *              greater than, is zero and is not less than 6.
  *
- * Returns 0 if successful
- */
-int main (void)
+ * Return: Always O (Success)
+*/
+
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
