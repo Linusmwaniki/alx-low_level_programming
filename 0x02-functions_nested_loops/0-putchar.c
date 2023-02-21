@@ -1,11 +1,8 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Entry point of program
- *
- * Description: prints _putchar followed by a new line
- *
- * Return: (0) if 
+ * main - Entry Block
+  *Description: prints _putchar followed by a new line
+ * Return: 0
  */
 int main(void)
 {
@@ -13,7 +10,7 @@ int main(void)
 
 	int i = 0;
 
-	while(i < 8)
+	while (i < 8)
 	{
 		_putchar(c[i]);
 		i++;
