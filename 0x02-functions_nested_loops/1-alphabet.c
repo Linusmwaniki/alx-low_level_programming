@@ -1,18 +1,20 @@
 #include "main.h"
 /**
- * main - entry point
- * Description - prints 10 times the  alphabet in lowercase
- * Return: Always 0
+ * print_alphabet - entry point
+ * Description - prints all alphabet, in lowercase, followed by a new line
+ * Return
  */
 void print_alphabet(void)
 {
 	char chr;
 
 	chr = 'a';
+
 	while (chr <= 'z')
 	{
 		_putchar(chr);
-		chr++
+		chr++;
 	}
+
 	_putchar('\n');
 }
